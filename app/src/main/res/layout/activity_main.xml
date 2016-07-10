@@ -14,12 +14,12 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/btn_cadastrar_main"
-        android:id="@+id/button" />
+        android:text="@string/btn_contatos_main"
+        android:id="@+id/btnContato" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/btn_alert_main"
-        android:id="@+id/button2" />
+        android:id="@+id/btnAlerta" />
 </LinearLayout>
