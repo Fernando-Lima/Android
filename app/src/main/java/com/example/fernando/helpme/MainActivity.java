@@ -8,7 +8,7 @@ import android.widget.Button;
 
 public class MainActivity extends DebugActivity implements View.OnClickListener {
 
-    Button btnContato, btnAlerta;
+    Button btnContato;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,4 +22,6 @@ public class MainActivity extends DebugActivity implements View.OnClickListener 
         Intent it = new Intent(this, ContatoActivity.class);
         startActivity(it);
     }
+
+
 }
