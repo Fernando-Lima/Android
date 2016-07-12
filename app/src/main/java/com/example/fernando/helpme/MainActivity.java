@@ -13,7 +13,7 @@ public class MainActivity extends DebugActivity implements View.OnClickListener 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        btnContato = (Button) findViewById(R.id.btnContato);
+        btnContato = (Button) findViewById(R.id.main_btnContato);
         btnContato.setOnClickListener(this);
     }
 
@@ -22,6 +22,4 @@ public class MainActivity extends DebugActivity implements View.OnClickListener 
         Intent it = new Intent(this, ContatoActivity.class);
         startActivity(it);
     }
-
-
 }
